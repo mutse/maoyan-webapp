@@ -1,0 +1,17 @@
+{
+    "name": "maoyan-webapp.mutse",
+    "description": "description of maoyan-webapp",
+    "architecture": "all",
+    "title": "maoyan-webapp",
+    "hooks": {
+        "maoyan-webapp": {
+            "apparmor": "maoyan-webapp.apparmor",
+            "desktop":  "maoyan-webapp.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Mutse Young <yyhoo2.young@gmail.com>",
+    "framework" : "ubuntu-sdk-15.04"
+}
+
+

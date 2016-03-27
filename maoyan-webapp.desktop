@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name[zh_CN]=猫眼电影
+Name=maoyan-webapp
+Comment=webapp for maoyan
+Type=Application
+Icon=maoyan-webapp.png
+Exec=webapp-container --enable-back-forward --store-session-cookies --webappUrlPatterns=https?://m.maoyan.com/#type=movies/* http://m.maoyan.com/#type=movies %u
+Terminal=false
+X-Ubuntu-Touch=true
+
